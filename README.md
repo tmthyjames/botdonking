@@ -2,13 +2,13 @@
 Bot, Don King is an automatic Reddit promoter that posts to the specified sub-reddits at the sub-reddits' optimal time.
 
     urls_subreddits = {
-        'http://www.learndatasci.com/': {
-            'title': 'this is a test',
-            'subreddits': ['pystats', 'datascience', 'statistics'],
+        'http://www.yourblog.com/your-article': { # URL
+            'title': 'Check out this article', # title of the article
+            'subreddits': ['python', 'rstats'], #subreddit you want to post to
         },
-        'http://www.learndatasci.com/#test=true': {
+        'http://www.yourblog.com/your-other-article': {
             'title': 'this is still a test',
-            'subreddits': ['python'],
+            'subreddits': ['pystats', 'datascience', 'statistics'],
         }
     }
 
