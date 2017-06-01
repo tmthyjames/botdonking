@@ -108,8 +108,8 @@ class DonKing(object):
         return None
     
     def event(self, subreddit, title, url):
-#         subreddit_request = reddit.subreddit(subreddit)
-#         subreddit_request.submit(title, url)
+        subreddit_request = reddit.subreddit(subreddit)
+        subreddit_request.submit(title, url)
         print subreddit, title, url
         schedule.CancelJob
         return None
